@@ -1,6 +1,6 @@
 
 name=(input("what's your name? "))
-password=input("enter your password: ") #123miki
+password=input("enter your password: ") 
 
 if len(password)>=8:
 
