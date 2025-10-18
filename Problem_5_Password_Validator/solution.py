@@ -14,4 +14,4 @@ else:
     print(" Password is weak.")
     print("Missing rules:")
     for rule in missing_rules:
-        print("-", rule)
+        print("-", rule) 
