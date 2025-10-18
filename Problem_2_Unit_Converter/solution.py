@@ -18,4 +18,4 @@ elif choice =="2":
   print(f"{Celsius} deg c is equal to{Fahrenheit:.2f} deg f.")
 
 else:
-  print("Invalid Choice! Please enter 1 or 2.")
+  print("Invalid Choice! Please Enter 1 or 2.")
