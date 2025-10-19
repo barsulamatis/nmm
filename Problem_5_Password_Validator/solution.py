@@ -1,4 +1,4 @@
-import password
+
 
 print("This code checks ih your password is strong or weak")
 print("enter your name: ")
