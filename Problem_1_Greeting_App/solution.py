@@ -1,1 +1,5 @@
-# your code here
+name = input("enter your name   ")
+favorite = input("favorite food   ")
+year = int(input("year  "))
+age = int(input("age   "))
+print("Name:", name, "favorite food:", favorite, "year:", year, "age:", age)
