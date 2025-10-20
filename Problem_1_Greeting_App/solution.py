@@ -1,4 +1,4 @@
-#Problem 1:personalized Greeting App
+#Problem 1:Personalized Greeting App
 
 #Ask for user input
 name =input("What is your name?")
