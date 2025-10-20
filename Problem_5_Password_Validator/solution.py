@@ -1,17 +1,18 @@
-# take input from user
-name=input("enter your name:").strip()
-password=input("enter the password").strip()
-missing_rules = []
-if len(password)<8:
-    missing_rules.append("password must be at least 8 characters")
-if not any(char.isdigit() for char in password):
-     missing_rules.append("password is at least contain one digit")
-if password.lower()== name.lower():
-     missing_rules.append("password is must not be the same as your name")    
-if not missing_rules:
-    print("Your password is strong ")
+# 1. Ask for name and password
+name = input("Enter your name: ")
+password = input("Enter your password: ")
+
+# 2. Check conditions
+length_ok = len(password) >= 8
+has_digit = any(char.isdigit() for char in password)
+not_same_as_name = password != name
+
+# 3. Check strength 
+if length_ok and has_digit and not_same_as_name:
+    print("Password is strong.")
+elif not length_ok and not has_digit and not not_same_as_name:
+    print(" Weak password: Too short, no digits, and same as your name.")
+elif password>=8:
+    print("the password is normal")
 else:
-    print("Your password is weak . Missing rules:")
-    for rule in missing_rules:
-        print("-", rule)
-     
+    print("Something went wrong.")
