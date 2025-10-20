@@ -1,4 +1,4 @@
-# 1. Ask the conversion of user wants 1 Mile =1/0.621371 KM 
+# 1. Ask the conversion of user wants ,let 1 Mile =1/0.621371 KM 
 print("Choose conversion type:")
 print("1. Miles to Kilometers")
 print("2. Kilometers to Miles")
